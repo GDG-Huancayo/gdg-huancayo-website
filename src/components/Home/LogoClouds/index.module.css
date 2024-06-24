@@ -1,0 +1,22 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes invert-slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.logos-slide-invert {
+  animation: 5s invert-slide infinite linear;
+}
+.logos-slide {
+  animation: 5s slide infinite linear;
+}
