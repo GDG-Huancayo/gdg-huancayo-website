@@ -5,8 +5,8 @@ import {
   LogoClouds,
   OurBlog,
   HeroSection,
-  ActionSection,
   FindUs,
+  ActionSection,
 } from "@/components/Home/";
 
 function Home() {

@@ -86,12 +86,13 @@ export const Guests = () => {
     <div className="bg-white py-32">
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl font-bold  text-gray-900 sm:text-4xl font-product">
-            Meet our team
+          <h2 className=" font-bold  text-gray-900 text-5xl font-product leading-normal">
+            Invitados Especiales: Líderes de la Industria Tecnológica
           </h2>
-          <p className="mt-4 text-lg leading-8 text-gray-600 font-product">
-            We’re a dynamic group of individuals who are passionate about what
-            we do.
+          <p className="mt-4 text-base text-gray-600 font-product">
+            Renombrados divulgadores y destacados profesionales de la comunidad
+            de programación y tecnología se reunirán en DevFest GDG Huancayo
+            para compartir sus valiosos conocimientos y experiencias.
           </p>
         </div>
         <ul

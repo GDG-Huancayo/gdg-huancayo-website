@@ -1,5 +1,6 @@
 "use client";
 import {
+  ActionSection,
   DevFestInfo,
   Guests,
   HeroSection,
@@ -14,8 +15,9 @@ function DevFest() {
       <main>
         <HeroSection />
         <DevFestInfo />
-        <PriceSection />
         <Guests />
+        <PriceSection />
+        <ActionSection />
       </main>
       <Footer />
     </>
