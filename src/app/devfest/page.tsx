@@ -1,5 +1,10 @@
 "use client";
-import { HeroSection, PriceSection } from "@/components/DevFest/";
+import {
+  DevFestInfo,
+  Guests,
+  HeroSection,
+  PriceSection,
+} from "@/components/DevFest/";
 import { Footer, Header } from "@/components/common";
 
 function DevFest() {
@@ -8,7 +13,9 @@ function DevFest() {
       <Header />
       <main>
         <HeroSection />
+        <DevFestInfo />
         <PriceSection />
+        <Guests />
       </main>
       <Footer />
     </>

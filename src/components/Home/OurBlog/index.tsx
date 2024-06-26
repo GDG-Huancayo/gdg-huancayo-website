@@ -51,7 +51,7 @@ export const OurBlog = () => {
               <img
                 src={post.imageUrl}
                 alt=""
-                className="absolute inset-0 -z-10 h-full w-full object-cover brightness-[0.4] group-hover:scale-150 transition-all"
+                className="absolute inset-0 -z-10 h-full w-full object-cover brightness-[0.4] group-hover:scale-110 transition-all"
               />
               <h3 className="mt-3 text-xl font-semibold leading-6 text-white font-product">
                 <a href={post.href}>
