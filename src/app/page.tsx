@@ -7,6 +7,7 @@ import {
   HeroSection,
   FindUs,
   ActionSection,
+  OverviewSection,
 } from "@/components/Home/";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <main>
         <HeroSection />
         <LogoClouds />
+        <OverviewSection />
         <OurBlog />
         <FindUs />
         <Faq />

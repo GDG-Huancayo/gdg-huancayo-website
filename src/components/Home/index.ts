@@ -1,3 +1,4 @@
+export { OverviewSection } from "./OverviewSection";
 export { ActionSection } from "./ActionSection";
 export { FindUs } from "./FindUs";
 export { HeroSection } from "./HeroSection";
