@@ -1,7 +1,7 @@
 export { OverviewSection } from "./OverviewSection";
 export { ActionSection } from "./ActionSection";
-export { FindUs } from "./FindUs";
+export { FindUsSection } from "./FindUsSection";
 export { HeroSection } from "./HeroSection";
-export { OurBlog } from "./OurBlog";
+export { BlogSection } from "./BlogSection";
 export { LogoClouds } from "./LogoClouds";
-export { Faq } from "./Faq";
+export { FaqSection } from "./FaqSection";

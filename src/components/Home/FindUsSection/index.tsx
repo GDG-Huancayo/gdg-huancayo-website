@@ -9,7 +9,7 @@ const tabs = [
   { name: "SENATI", href: "#", current: false },
 ];
 
-export const FindUs = () => {
+export const FindUsSection = () => {
   return (
     <section className="relative w-full overflow-hidden">
       <div className="w-screen absolute left-0 h-full flex items-center justify-center z-10">
@@ -30,13 +30,13 @@ export const FindUs = () => {
             <LinkIcon className="size-5 text-blue-600" />
           </button>
         </div>
-        <div className="mt-16 w-full h-[720px] rounded-3xl overflow-hidden shadow-2xl">
+        <div className="mt-16 w-full h-[720px] rounded-[40px] shadow-2xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.2825437770388!2d-75.19949664110908!3d-12.047418852361565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e97b3314cd879%3A0x9f66ef8a3f5b21d1!2sPuerta%20Principal%20-%20Universidad%20Continental!5e0!3m2!1ses!2spe!4v1718812870094!5m2!1ses!2spe"
-            style={{ border: 0 }}
+            style={{ border: "0px solid #000", outline: "none" }}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="w-full h-full rounded-3xl overflow-hidden outline-none"
+            className="w-full h-full rounded-[40px] overflow-hidden outline-none"
           ></iframe>
         </div>
         <div className="mt-16">

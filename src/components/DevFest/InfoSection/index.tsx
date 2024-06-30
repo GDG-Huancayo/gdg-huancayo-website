@@ -22,7 +22,7 @@ const info = [
   },
 ];
 
-export const DevFestInfo = () => {
+export const InfoSection = () => {
   return (
     <section className="mx-auto max-w-6xl w-full  py-24 sm:py-24  px-6 ">
       <h1 className="text-5xl font-product text-gray-900 font-bold w-full text-center max-w-3xl mx-auto leading-normal">

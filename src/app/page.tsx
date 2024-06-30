@@ -1,14 +1,15 @@
 "use client";
 import { Footer, Header } from "@/components/common";
 import {
-  Faq,
   LogoClouds,
-  OurBlog,
   HeroSection,
-  FindUs,
   ActionSection,
   OverviewSection,
-} from "@/components/Home/";
+  FaqSection,
+  BlogSection,
+  FindUsSection,
+} from "@/components/home";
+import { BenefitsSection } from "@/components/home/BenefitsSection";
 
 function Home() {
   return (
@@ -18,9 +19,10 @@ function Home() {
         <HeroSection />
         <LogoClouds />
         <OverviewSection />
-        <OurBlog />
-        <FindUs />
-        <Faq />
+        <BenefitsSection />
+        <BlogSection />
+        <FindUsSection />
+        <FaqSection />
         <ActionSection />
       </main>
       <Footer />

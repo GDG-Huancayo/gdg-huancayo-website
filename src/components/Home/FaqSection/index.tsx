@@ -8,7 +8,6 @@ import {
   ChevronDownIcon,
   ChevronUpIcon,
 } from "@heroicons/react/16/solid";
-import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
   {
@@ -48,7 +47,7 @@ const faqs = [
   },
 ];
 
-export const Faq = () => {
+export const FaqSection = () => {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32  lg:py-40">

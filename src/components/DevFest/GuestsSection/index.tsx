@@ -81,7 +81,7 @@ const people = [
   },
 ];
 
-export const Guests = () => {
+export const GuestsSection = () => {
   return (
     <div className="bg-white py-32">
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-8">

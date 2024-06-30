@@ -12,10 +12,14 @@ export const HeroSection = () => {
         <span className="text-green-500">todos puedan acceder a ella</span> y
         <span className="text-yellow-500"> usarla.</span>
       </p>
-      <div className="my-10 relative w-full h-[720px] mx-auto rounded-3xl overflow-hidden">
+      <div className="my-10 relative w-full h-[720px] mx-auto rounded-[40px] overflow-hidden">
         <div className="w-full h-full">
-          <Image alt="banner" src={banner} className="w-full h-full" />
-          <button className="w-full h-full absolute top-0 left-0 bg-[#0009] z-10 flex items-center justify-center  transition-colors hover:bg-[#0004] group">
+          <Image
+            alt="banner"
+            src={banner}
+            className="w-full h-full object-cover"
+          />
+          <button className="w-full h-full backdrop:blur-3xl absolute top-0 left-0 bg-[#0009] z-10 flex items-center justify-center  transition-colors hover:bg-[#0004] group">
             <div className="grid place-items-center">
               <Image
                 alt="youtube-logo"

@@ -1,11 +1,11 @@
 "use client";
 import {
   ActionSection,
-  DevFestInfo,
-  Guests,
+  GuestsSection,
   HeroSection,
+  InfoSection,
   PriceSection,
-} from "@/components/DevFest/";
+} from "@/components/devfest";
 import { Footer, Header } from "@/components/common";
 
 function DevFest() {
@@ -14,8 +14,8 @@ function DevFest() {
       <Header />
       <main>
         <HeroSection />
-        <DevFestInfo />
-        <Guests />
+        <InfoSection />
+        <GuestsSection />
         <PriceSection />
         <ActionSection />
       </main>
