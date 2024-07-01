@@ -7,7 +7,7 @@ interface Props {
 export const CardBenefit = ({ img, title, invert = false }: Props) => {
   return (
     <div
-      className={`grid gap-10 relative lg:grid-cols-2 rounded-3xl bg-gray-50 p-8`}
+      className={`grid gap-10 relative lg:grid-cols-2 rounded-3xl bg-slate-50 p-8 hover:bg-slate-100 transition-colors cursor-pointer`}
     >
       <div
         className={`w-full h-[425px] rounded-3xl overflow-hidden ${

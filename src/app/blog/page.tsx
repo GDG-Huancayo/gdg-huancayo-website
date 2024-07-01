@@ -1,6 +1,10 @@
 "use client";
 
-import { ExplorerSection, HeroSection } from "@/components/blog";
+import {
+  CategorySection,
+  ExplorerSection,
+  HeroSection,
+} from "@/components/blog";
 import { Footer, Header } from "@/components/common";
 import { BlogSection } from "@/components/home";
 
@@ -10,6 +14,7 @@ function Blog() {
       <Header />
       <main>
         <HeroSection />
+        <CategorySection />
         <ExplorerSection />
       </main>
       <Footer />

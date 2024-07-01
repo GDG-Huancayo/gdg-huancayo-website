@@ -1,3 +1,8 @@
+import {
+  ArrowRightCircleIcon,
+  ArrowRightIcon,
+} from "@heroicons/react/24/outline";
+
 export const OverviewSection = () => {
   return (
     <section className="max-w-6xl w-full mx-auto px-6 py-24 sm:py-32 lg:px-8 ">
@@ -16,7 +21,7 @@ export const OverviewSection = () => {
           </div>
         </div>
         <div>
-          <div className="rounded-3xl bg-gray-100 p-8">
+          <div className="rounded-3xl bg-slate-100 p-8">
             <div>
               <h3 className="text-gray-900 text-xl font-medium font-product">
                 Pricing
@@ -34,9 +39,13 @@ export const OverviewSection = () => {
               </p>
               <a
                 href="#"
-                className=" block rounded-full mt-8 w-fit font-bold text-sm leading-6 py-3 px-10 text-center  text-blue-500 border  font-product transition-colors bg-white"
+                className="group-hover:bg-slate-200 flex items-center gap-2 rounded-full mt-8 w-fit font-bold text-sm leading-6 py-2 px-6 text-center  text-blue-500 font-product transition-colors bg-slate-100 hover:bg-blue-200 "
               >
                 Unirme ahora
+                <ArrowRightIcon
+                  className="text-blue-500 size-4"
+                  strokeWidth={3}
+                />
               </a>
             </div>
           </div>
