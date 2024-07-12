@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import logo from "@/assets/logo.png";
 import { Footer, Header } from "@/components/common";
 
 function NotFound() {

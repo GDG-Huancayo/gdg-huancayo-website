@@ -13,7 +13,7 @@ export const CategorySection = () => {
             </span>
           </span>
           <h2 className="text-3xl text-gray-900 font-product font-bold">
-            Todo sobre "desarrollo web"
+            Todo sobre desarrollo web
           </h2>
           <p className="text-base text-gray-500 font-product mt-5">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,

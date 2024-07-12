@@ -14,12 +14,20 @@ export const useScroll = () => {
   };
 
   useLayoutEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
   }, []);
 
-  return { position, scrollTo: window.scrollTo };
+  const scrollTo = (x: number, y: number) => {
+    if (typeof window !== "undefined") {
+      window.scrollTo(x, y);
+    }
+  };
+
+  return { position, scrollTo };
 };
